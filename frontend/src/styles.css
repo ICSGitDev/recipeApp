@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+*{
+   padding: 0;
+   margin: 0;
+   /* import nightlife font */
+}
+
+.image{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(assets/background.gif);
+}
+html{
+    overflow: hidden;
+}
+
+.cheffHat{
+    width: 6vh;
+    height: 6vh;
+}
+
+.addIcon{
+    width: 4vh;
+    height: 4vh;
+    margin-left: 3vh;
+}
